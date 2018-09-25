@@ -1,0 +1,15 @@
+.zoneupload { position: relative; width: 95%; background: Aquamarine; border: 5px solid coral; padding: 10px; }
+.zoneupload legend { color: white; font-size: 2em; background: coral }
+.zoneupload .fichier { height: 160px; width: 95%; border: none; -webkit-appearance: none; background: white url(upload.png) center center no-repeat;  }
+.zoneupload small { position: absolute; margin: -20px 0 0 10px }
+.zoneupload #activite { color: blue }
+.zoneupload #send { position: absolute; right: 2px; bottom: 2px }
+#output {display: none;}
+#output.shown {display: inline-block;}
+div#output div {
+    margin: 5px;
+    border: 1px solid aquamarine;
+    padding: 5px;
+    font-family: inherit;
+}
+.ttl {font-weight:bold;}
