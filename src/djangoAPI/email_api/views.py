@@ -10,6 +10,8 @@ def email_list(req):
 		body = req.body.decode('utf-8')
 		email = parser.parsestr(body)
 		emailFrom = email.get('From')
+		if emailFrom[0] == '<':
+			emailFrom = emailFrom[1:-1]
 		emailTo = email.get('To')
 		if emailTo[0] == '<':
 			emailTo = emailTo[1:-1]

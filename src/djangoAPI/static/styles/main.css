@@ -1,15 +1,61 @@
-.zoneupload { position: relative; width: 95%; background: Aquamarine; border: 5px solid coral; padding: 10px; }
-.zoneupload legend { color: white; font-size: 2em; background: coral }
-.zoneupload .fichier { height: 160px; width: 95%; border: none; -webkit-appearance: none; background: white url(upload.png) center center no-repeat;  }
-.zoneupload small { position: absolute; margin: -20px 0 0 10px }
-.zoneupload #activite { color: blue }
-.zoneupload #send { position: absolute; right: 2px; bottom: 2px }
-#output {display: none;}
-#output.shown {display: inline-block;}
+.zoneupload {
+	position: relative;
+    width: 95%;
+    background: Aquamarine;
+    border-radius: 25px;
+    border: 5px solid pink;
+    padding: 20px;
+}
+.zoneupload:hover {
+	border: 5px dashed pink;
+}
+.zoneupload legend {
+	color: black;
+    font-size: 2em;
+    background: pink;
+    border-radius: 5px;
+    border: 1px solid pink;
+    padding: 6px;
+}
+.zoneupload .fichier { 
+	height: 160px; 
+	width: 95%; 
+	border: none; 
+	-webkit-appearance: none; 
+	background: white url(upload.png) center center no-repeat;  
+}
+.zoneupload small { 
+	position: absolute; 
+	margin: -20px 0 0 10px;
+}
+.zoneupload #activite { 
+	color: blue;
+}
+.zoneupload #send { 
+	position: absolute;
+	right: 2px;
+	bottom: 2px 
+}
+#output {
+	display: none;
+}
+#output.shown {
+	display: inline-block;
+}
+#output {
+	position: relative;
+    width: 95%;
+    border-radius: 25px;
+    border: 5px solid pink;
+    padding: 20px;
+    margin-top: 20px;
+}
 div#output div {
     margin: 5px;
     border: 1px solid aquamarine;
     padding: 5px;
     font-family: inherit;
 }
-.ttl {font-weight:bold;}
+.ttl {
+	font-weight:bold;
+}
